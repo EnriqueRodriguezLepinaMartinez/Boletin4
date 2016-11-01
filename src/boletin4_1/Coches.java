@@ -19,10 +19,10 @@ public class Coches {
             return velocidade;
         }
         public void acelerar(int valor){
-            valor += velocidade;         
+            velocidade += valor;         
         }
         public void frenar(int menos){
-            menos -= velocidade;            
+            velocidade -= menos;            
         }
         
 }
