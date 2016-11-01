@@ -17,6 +17,18 @@ public class Boletin4_1 {
     public static void main(String[] args) {
         Coches aceler = new Coches();
         aceler.acelerar(12);
+        aceler.frenar (2);
+        System.out.println("Velocidad: " + aceler.getVelocidade());
+        
+        Satelite satelite1 = new Satelite(20.00, 30000.00, 21.0);
+        satelite1.verPosicion();
+        
+        Circulo circulo1 =  new Circulo(20);
+        System.out.println("La longitud es: " + circulo1.calculaLonxitude());
+        System.out.println("El area es: " + circulo1.calcularArea());
+        
+        Restaurante restaurante1= new Restaurante();
+        System.out.println("Hay "+ restaurante1.calcularclientes() + " clientes.");
     }
     
 }
